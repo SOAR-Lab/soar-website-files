@@ -1,0 +1,40 @@
+body{
+    overflow: none;
+}
+
+.TeamContainer {
+
+    width: 100vw;
+    height: 92vh;
+    position: absolute;
+    top: 8vh;
+    padding: 1.5rem 5rem;
+}
+
+.TeamContainer h2 {
+    margin-bottom: 20px;
+}
+
+.position {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+@media screen and (max-width: 960px){
+    .TeamContainer{
+        position: absolute;
+        top: 8vh;
+        height: 92vh;
+        padding: 5vh;
+    }
+
+    .position {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

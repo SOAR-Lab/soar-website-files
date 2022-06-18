@@ -1,0 +1,61 @@
+.NewsContainer {
+    min-height: 10vh;
+    max-height: fit-content;
+    height: fit-content;
+    width: 100%;
+    padding: 20px;
+    border-left: 2px solid #F19F39;
+    display: flex;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+.BellIcon {
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+    margin-top: 3px;
+    margin-right: 1.2rem;
+}
+
+.NewsTextContainer {
+    width: calc(100% - 3vh);
+}
+
+.NewsContainer h2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.NewsContainer p {
+    font-size: 0.8rem;
+    height: fit-content;
+}
+
+@media screen and (max-width: 960px) {
+    .NewsContainer {
+        background-color: transparent;
+        padding: 10px;
+        box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2);
+    }
+
+    .BellIcon {
+        width: 20px;
+        height: 20px;
+        margin-top: 3px;
+        margin-right: 0.8rem;
+    }
+
+    .NewsContainer h2 {
+        font-size: 1rem;
+    }
+
+    .NewsContainer p {
+        height: fit-content;
+        font-size: 0.7rem;
+    }
+}

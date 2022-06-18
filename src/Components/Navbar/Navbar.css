@@ -1,0 +1,92 @@
+.MenuItems {
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    width: 100vw;
+    font-size: 1.2rem;
+    /* box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2); */
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 0 30px;
+}
+
+.MenuLogo {
+    width: 50vh;
+    background: url('../../../public/SOAR\ 16X9.jpeg') no-repeat;
+    height: 7.5vh;
+    background-size: contain;
+    background-position-y: center;
+}
+
+.nav-menu {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+    height: 8vh;
+    width: 50vw;
+}
+
+.nav-menu a {
+    color: #444;
+    text-decoration: none;
+    transition: all ease-in-out 0.25s;
+}
+
+.nav-menu a:hover {
+    color: #EDA441;
+}
+
+.MenuIcon {
+    display: none;
+}
+
+@media screen and (max-width: 960px)
+{
+
+    .NavbarItem {
+        position: relative;
+    }
+
+    .nav-menu {
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: 92vh;
+        position: absolute;
+        top: 8vh;
+        left: -100%;
+        padding-top: 50px;
+        transition: all ease-in-out .4s;
+    }
+
+    .MenuLogo {
+        background-position-x: center;
+    }
+
+    .MenuIcon {
+        display: block;
+        position: absolute;
+        max-height: 8vh;
+        top: 15px;
+        right: 30px;
+        font-size: 1.8rem;
+    }
+
+    .nav-menu.active {
+        z-index: 100;
+        left: 0;
+        transition: all ease-in-out .4s;
+        height: 92vh;
+        background-color: #fff;
+    }
+
+}

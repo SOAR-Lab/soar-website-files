@@ -1,0 +1,59 @@
+.ResearchCardContainer {
+    background-color: #eee;
+    width: 25vw;
+    padding-top: 30px;
+    height: 40vh;
+    max-height: 400px;
+    max-width: 500px;
+
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.2);
+}
+
+.ResearchContent {
+    height: calc(100% - 45px);
+    overflow: scroll;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+.ResearchCardContainer h2 {
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.ResearchCardContainer p {
+    position: relative;
+    font-size: 0.9rem;
+    max-height: 20vh;
+}
+
+.ResearchCardContainer .InfoButtonContainer {
+    width: 100%;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .ResearchCardContainer {
+        overflow-y: visible;
+        width: 80vw;
+        min-height: 50vh;
+    }
+
+    /* .ResearchCardContainer p {
+        max-height: 10vh;
+    }*/
+
+    .ResearchCardContainer .InfoButtonContainer {
+        position: relative;
+        width: 100%;
+        height: 45px;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+} 
