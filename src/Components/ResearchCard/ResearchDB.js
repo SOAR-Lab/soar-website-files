@@ -1,4 +1,11 @@
 export const ResearchDB = [{
+    title: 'Mining Emotions from Software Engineering Communication',
+    info: 'Emotions can strongly impact activities that are collaborative in nature and require creativity and problem-solving skills, such as software development. Research has shown that positive emotions (e.g., Joy) are associated with increased productivity and job satisfaction in software engineering teams. On the other hand, negative emotions (e.g., Frustration) can cause developers to lose motivation and exhibit lower participation, ultimately leading to team attrition. In this project, we aim to mine emotions and affect in software-related text towards improving collaboration and productivity in software projects.',
+    links: {
+        ASE22: 'https://preethac.github.io/files/ASE_2022.pdf'
+    }
+},
+{
     title: 'Mining Information from Developer Chat Conversations Towards Building Software Maintenance Tools',
     info: 'Popular chat platforms such as Slack host public chat communities that focus on specific software development topics such as Python or Ruby-on-Rails. Many of those chat communications contain valuable information, such as description of code snippets and APIs, opinions on good programming practices, and causes of common errors/exceptions. This project aims to develop analyses for automatically identifying and extracting information in developers’ chat communications towards improving and building new tools to support software engineers.',
     links: {

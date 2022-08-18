@@ -1,4 +1,18 @@
 export const PublicationItems = [{
+    title: 'Data Augmentation for Improving Emotion Recognition in Software Engineering Communication',
+    author: 'Kostadin Damevski, Mia Mohammad, Preetha Chatterjee, and Yashasvi Jain',
+    year:'2022',
+    synopsis: '',
+    abstract: `Emotions (e.g., Joy, Anger) are prevalent in daily software engineer- ing (SE) activities, and are known to be significant indicators of work productivity (e.g., bug fixing efficiency). Recent studies have shown that directly applying general purpose emotion classifica- tion tools to SE corpora is not effective. Even within the SE domain, tool performance degrades significantly when trained on one com- munication channel and evaluated on another (e.g, StackOverflow vs. GitHub comments). Retraining a tool with channel-specific data takes significant effort since manually annotating a large dataset of ground truth data is expensive. In this paper, we address this data scarcity problem by auto- matically creating new training data using a data augmentation technique. Based on an analysis of the types of errors made by popu- lar SE-specific emotion recognition tools, we specifically target our data augmentation strategy in order to improve the performance of emotion recognition. Our results show an average improvement of 9.3% in micro F1-Score for three existing emotion classification tools (ESEM-E, EMTk, SEntiMoji) when trained with our best aug- mentation strategy.`,
+    links: {
+        Preprint: 'https://preethac.github.io/files/ASE_2022.pdf',
+        DOI: null,
+        Slides: null,
+        Manuscript: null,
+        Dataset: null
+    }
+},
+{
     title: 'DISCO: A Dataset of Discord Chat Conversations for Software Engineering Research ',
     author:'Keerthana Muthu Subash, Lakshmi Prasanna Kumar, Sri Lakshmi Vadlamani, Preetha Chatterjee and Olga Baysal',
     year:'2022',
