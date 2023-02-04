@@ -16,7 +16,7 @@ There are few more sub-steps before you can make any changes to the website.
 
  - **Download Node.js:** https://nodejs.org/en/
  - **Download Dependencies:** Open your command promt or Terminal and navigate to the `soar-website-files` directory that you cloned to your local machine. Run the following command to install all the required dependencies for the project: `npm install`
- - **Test the project:** Run the command `npm start` to run the React App on your local server. This an optional, but reccommended, step.
+ - **Test the project:** Run the command `npm start` to run the React App on your local server. This is an optional, but reccommended, step.
  
 ## 3. Making changes
 Once your have successfully cloned the repository and downloaded the required dependencies, open the folder in your IDE. The website project follows a standard file structure, where the JavaScript files are in the **src** folder and all the assets are in the **public** folder. To make changes to the data you will be updating the files in the **src** folder. The data objects are of type **JavaScript Object** and placed in separate files.
