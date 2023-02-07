@@ -16,7 +16,7 @@ export const TeamMembers = [
         name: 'Ramtin Ehsani',
         picture: '/ramtine.jpeg',
         position: 'Ph.D. Student, Drexel University',
-        info: 'My name is Ramtin. I was born and raised in Iran, Tehran. My research interests lie in the intersection of software engineering, machine learning, and NLP, and I will join the SOAR lab in Fall 2022 at Drexel to start my Ph.D. studies. I\'m a passionate learner who is always energetic and eager to learn new skills, and I also love coding!',
+        info: 'My name is Ramtin. I was born and raised in Iran, Tehran. My research interests lie in the intersection of software engineering, machine learning, and NLP, and I have joined the SOAR lab in the Winter of 2022 at Drexel to start my Ph.D. studies. I\'m a passionate learner who is always energetic and eager to learn new skills, and I also love coding!',
         email: 'Ramtin.Ehsani@drexel.edu',
         github: 'https://github.com/ramtin-ehsani',
         linkedin: 'https://www.linkedin.com/in/ramtin-ehsani/',
