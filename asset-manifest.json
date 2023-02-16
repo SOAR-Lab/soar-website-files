@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.fdf99bfd.css",
-    "main.js": "/static/js/main.85a76ac4.js",
+    "main.js": "/static/js/main.66cd0ebc.js",
     "static/media/homecover.jpeg": "/static/media/homecover.2efac7a7545014a14144.jpeg",
     "static/media/SOAR 16X9.jpeg": "/static/media/SOAR 16X9.2029011bea8e6f423ca6.jpeg",
     "index.html": "/index.html",
     "main.fdf99bfd.css.map": "/static/css/main.fdf99bfd.css.map",
-    "main.85a76ac4.js.map": "/static/js/main.85a76ac4.js.map"
+    "main.66cd0ebc.js.map": "/static/js/main.66cd0ebc.js.map"
   },
   "entrypoints": [
     "static/css/main.fdf99bfd.css",
-    "static/js/main.85a76ac4.js"
+    "static/js/main.66cd0ebc.js"
   ]
 }
