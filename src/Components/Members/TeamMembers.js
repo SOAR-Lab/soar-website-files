@@ -44,17 +44,17 @@ export const TeamMembers = [
         linkedin: 'https://www.linkedin.com/in/yashasvi-jain/',
         website: 'https://yashasvi-jain.github.io/index.html'
     },
-    {
-        div: 'Undergraduate',
-        name: 'Siddhanth Agrawal',
-        picture: '/siddhantha.jpeg',
-        position: 'Undergraduate Student, Drexel University',
-        info: 'Siddhanth is a Computer Science major and a Mathematics and Data Science Minor at Drexel University. His research interests lie in the areas of Software Engineering, Machine Learning, Algorithms, and Computational Mathematics. ',
-        email: 'siddhanth.agrawal@drexel.edu',
-        github: 'http://github.com/SiddhanthAgrawal',
-        linkedin: 'http://www.linkedin.com/in/siddhanth-agrawal',
-        website: 'https://www.cs.drexel.edu/~sa3724'
-    },
+    // {
+    //     div: 'Undergraduate',
+    //     name: 'Siddhanth Agrawal',
+    //     picture: '/siddhantha.jpeg',
+    //     position: 'Undergraduate Student, Drexel University',
+    //     info: 'Siddhanth is a Computer Science major and a Mathematics and Data Science Minor at Drexel University. His research interests lie in the areas of Software Engineering, Machine Learning, Algorithms, and Computational Mathematics. ',
+    //     email: 'siddhanth.agrawal@drexel.edu',
+    //     github: 'http://github.com/SiddhanthAgrawal',
+    //     linkedin: 'http://www.linkedin.com/in/siddhanth-agrawal',
+    //     website: 'https://www.cs.drexel.edu/~sa3724'
+    // },
     {
         div: 'Alumni',
         name: 'Thomas Do',
